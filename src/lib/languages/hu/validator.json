@@ -1,0 +1,32 @@
+{
+	"required": "Kötelező",
+	"invalidNumber": "Érvénytelen szám",
+	"invalidInteger": "Érvénytelen egész szám",
+	"invalidFloat": "Érvénytelen tizedes szám",
+	"invalidUrl": "Érvénytelen URL",
+	"invalidPhone": "Érvénytelen telefonszám",
+	"invalidCreditCard": "Érvénytelen hitelkártyaszám",
+	"invalidIpAddress": "Érvénytelen IP-cím",
+	"invalidEmail": "Érvénytelen e-mail cím",
+	"invalidDate": "Érvénytelen dátum",
+	"invalidPattern": "Érvénytelen formátum",
+	"invalidDomain": "Érvénytelen domain név",
+	"invalidColor": "Érvénytelen szín",
+	"invalidPassword": "Érvénytelen jelszó",
+	"invalidPasswordStrength": "A jelszónak {0} karakter hosszúnak kell lennie és legalább {1} feltételnek teljesülnie kell az alábbiak közül:\nlegalább {2} kisbetű,\nlegalább {3} nagybetű,\nlegalább {4} szám,\nlegalább {5} speciális karakter",
+	"notUnique": "A megadott érték már létezik",
+	"passwordsNotMatch": "A jelszavak nem egyeznek",
+	"invalidCurrentPassword": "Érvénytelen jelenlegi jelszó",
+	"invalidPasswordHistory": "A jelszó nem lehet az utolsó {0} jelszó közül való",
+	"minLength": "Legalább {0} karakter szükséges",
+	"maxLength": "Legfeljebb {0} karakter engedélyezett",
+	"min": "A megadott érték nem lehet kisebb, mint {0}",
+	"max": "A megadott érték nem lehet nagyobb, mint {0}",
+	"file": {
+		"minSize": "A fájl mérete nem lehet kisebb, mint {0} MB",
+		"maxSize": "A fájl mérete nem lehet nagyobb, mint {0} MB",
+		"fileCount": "A maximális fájlszám {0} db",
+		"fileExtension": "Nem engedélyezett fájltípus",
+		"fileExtensionHack": "A fájl típusa nem egyezik a kiterjesztéssel. A fájl típusa: {0}"
+	}
+}

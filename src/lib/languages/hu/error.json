@@ -1,0 +1,11 @@
+{
+	"backLinkText": "Vissza a főoldalra",
+	"errorModalTitle": "Hiba történt",
+	"errorCode": {
+		"e5xx": "Szerver hiba",
+		"e404": "Nincs meg az oldal"
+	},
+	"validator": {
+		"required": "Kötelező kitölteni"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"title": "Bejelentkezés",
+	"description": "Bejelentkezési oldal az adminisztrációs felülethez.",
+	"input": {
+		"username": "Felhasználónév",
+		"password": "Jelszó"
+	},
+	"button": {
+		"login": "Bejelentkezés"
+	},
+	"loadingText": "Bejelentkezés folyamatban...",
+	"message": {
+		"error": {
+			"loginFail": "Sikertelen bejelentkezés"
+		}
+	}
+}

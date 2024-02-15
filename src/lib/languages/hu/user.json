@@ -1,0 +1,31 @@
+{
+	"fields": {
+		"user_fullname": "Név",
+		"user_email": "E-mail",
+		"user_phone": "Telefonszám",
+		"user_comment": "Megjegyzés",
+		"new_password": "Új jelszó",
+		"new_password_confirm": "Új jelszó megerősítése",
+		"current_password": "Jelenlegi jelszó"
+	},
+	"blocks": {
+		"generalInformation": "Általános adatok",
+		"changePassword": "Jelszó módosítás",
+		"activityLog": "Aktivitás napló",
+		"avatar": "Profilkép"
+	},
+	"messages": {
+		"success": {
+			"created": "A felhasználó sikeresen létrehozva!",
+			"updated": "Sikeres felhasználói adatok frissítése!",
+			"deleted": "A felhasználó sikeresen törölve!"
+		},
+		"error": {
+			"notFound": "Nem található a felhasználó!"
+		},
+		"info": {
+			"currentPassword": "Az aktuálisan bejelentkezett felhasználói jelszó magadása szükséges!"
+		}
+	},
+	"avatarInfo": "A profil kép a webalkalmazásban az online azonosítás és kapcsolatépítés eszköze. Segít megbízható és könnyen azonosítható személyiséget mutatni. Válassz gondosan, hogy pozitív benyomást kelts és könnyebb legyen másokkal kapcsolatba lépned."
+}

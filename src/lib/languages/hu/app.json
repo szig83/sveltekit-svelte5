@@ -1,0 +1,18 @@
+{
+  "buttons": {
+    "ok": "Rendben",
+    "save": "Mentés",
+    "cancel": "Mégsem",
+    "upload": "Feltöltés",
+    "modify": "Módosítás"
+  },
+  "info": "Információ",
+  "tooltips": {
+    "showInfo": "Információ megnyitása"
+  },
+  "autoLogoutWarning": {
+    "title": "Hamarosan lejáró munkamenet",
+    "message": "<p>Az Ön aktuális munkamenete <strong>#timer#</strong> múlva lejár és a rendszer automatikusan kijelentkezteti.</p><p><strong>Figyelem!</strong> Ha vannak változtatásai a felületen, amiket nem mentett el, akkor azok a kijelentkeztetés után el fognak veszni!</p><p>Ha továbbra is bejelentkezve szeretne maradni, kérjük kattintson az alábbi gombra:</p>",
+    "keepAlive": "Munkamenet meghosszabbítása"
+  }
+}

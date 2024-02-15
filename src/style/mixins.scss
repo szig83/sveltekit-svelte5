@@ -1,0 +1,18 @@
+@mixin transition($property: all, $time: 0.2s, $timing: linear) {
+	-moz-transition: $property $time $timing;
+	-webkit-transition: $property $time $timing;
+	-o-transition: $property $time $timing;
+	transition: $property $time $timing;
+}
+
+@mixin fullscreen-wrapper() {
+	position: absolute;
+	inset: 0px;
+	overflow: auto;
+}
+
+@mixin flex-center() {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

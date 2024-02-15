@@ -1,0 +1,11 @@
+{
+	"buttons": {
+		"ok": "Ok",
+		"save": "Save"
+	},
+	"autoLogoutWarning": {
+		"title": "Session about to expire",
+		"message": "<p>Your current session will expire in <strong>#timer#</strong>, and the system will log you out automatically.</p><p><strong>Attention!</strong> Any unsaved changes you made to the interface will be lost after logout!</p><p>If you wish to stay logged in, please click the button below:</p>",
+		"keepAlive": "Stay logged in"
+	}
+}

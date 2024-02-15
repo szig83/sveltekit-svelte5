@@ -1,0 +1,10 @@
+{
+	"settings": {
+		"title": "Layout settings",
+		"resetDefaultSettings": "Reset dafualt settings"
+	},
+	"userDropdown": {
+		"profil": "Saját profil",
+		"logout": "Kijelentkezés"
+	}
+}

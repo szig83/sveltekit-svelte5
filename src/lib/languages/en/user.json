@@ -1,0 +1,11 @@
+{
+	"fields": {
+		"user_fullname": "Name",
+		"user_email": "E-mail"
+	},
+	"blocks": {
+		"generalInformation": "General information",
+		"changePassword": "Change password",
+		"activityLog": "Activity log"
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"settings": {
+		"title": "Felület beállítások",
+		"resetDefaultSettings": "Alapértelmezett beállítások visszaállítása"
+	},
+	"userDropdown": {
+		"profil": "Felhasználói fiók",
+		"logout": "Kijelentkezés"
+	}
+}

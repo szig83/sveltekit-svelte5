@@ -1,0 +1,15 @@
+{
+	"title": "Login",
+	"input": {
+		"username": "Username",
+		"password": "Password"
+	},
+	"button": {
+		"login": "Login"
+	},
+	"message": {
+		"error": {
+			"loginFail": "Login fail."
+		}
+	}
+}

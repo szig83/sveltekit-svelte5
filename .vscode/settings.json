@@ -1,0 +1,81 @@
+{
+	"window.zoomLevel": 1,
+	"workbench.startupEditor": "none",
+	"workbench.editor.labelFormat": "short",
+	"workbench.iconTheme": "vs-seti",
+	"workbench.colorCustomizations": {
+		"titleBar.activeBackground": "#1a1a1a",
+		"titleBar.activeForeground": "#c7c4c3",
+		"activityBar.background": "#121212",
+		//"activityBar.activeBackground": "#7faebe50",
+		"activityBar.foreground": "#da7056",
+		"activityBar.inactiveForeground": "#3a3a3a",
+		"activityBar.border": "#ffffff00",
+		"activityBar.activeBorder": "#da7056",
+		"activityBarBadge.background": "#da7056",
+		"sideBar.background": "#252525",
+		"sideBar.border": "#252525",
+		"statusBarItem.remoteBackground": "#da7056",
+		"statusBar.border": "#00000000",
+		"statusBar.focusBorder": "#00000000",
+		"statusBarItem.hoverBackground": "#da7056",
+		"statusBarItem.hoverForeground": "#ffffff",
+		"tab.activeBorderTop": "#da7056",
+		"list.inactiveSelectionBackground": "#343434",
+		"list.activeSelectionBackground": "#343434",
+		"list.focusAndSelectionOutline": "#343434",
+		"terminal.tab.activeBorder": "#da7056"
+		//"tab.activeBorder":"#3988a2"
+	},
+	"explorer.compactFolders": false,
+	"editor.fontFamily": "'FiraCode Nerd Font', monospace",
+	"editor.formatOnSave": true,
+	"editor.fontSize": 15,
+	"editor.minimap.enabled": false,
+	"editor.linkedEditing": true,
+	"breadcrumbs.enabled": false,
+	"prettier.configPath": ".prettierrc",
+	"scss.lint.unknownAtRules": "ignore",
+	"css.lint.unknownAtRules": "ignore",
+	"css.lint.emptyRules": "ignore",
+	"scss.lint.emptyRules": "ignore",
+
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[markdown]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"typescript": "typescriptreact"
+	},
+	"terminal.integrated.profiles.osx": {
+		"bash": null
+	},
+	"gitlens.showWelcomeOnInstall": false,
+	"gitlens.showWhatsNewAfterUpgrades": false,
+	"gitlens.currentLine.pullRequests.enabled": false,
+	"gitlens.currentLine.enabled": false,
+	"tailwindCSS.includeLanguages": {
+		"html": "html",
+		"javascript": "javascript",
+		"css": "css"
+	},
+	"editor.quickSuggestions": {
+		"strings": true
+	}
+}

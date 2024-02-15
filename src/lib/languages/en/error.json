@@ -1,0 +1,7 @@
+{
+	"backLinkText": "Back to home",
+	"errorModalTitle": "Error",
+	"errorCode": {
+		"e404": "Page not found"
+	}
+}
