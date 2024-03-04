@@ -3,11 +3,11 @@ import type { Config } from 'tailwindcss';
 // import tailwindForms from '@tailwindcss/forms';
 // import tailwindTypography from '@tailwindcss/typography';
 
-// 1. Import the Skeleton plugin
-
 const config = {
-	// 2. Opt for dark mode to be handled via the class method
-	darkMode: ['class'],
+	darkMode: [
+		'variant',
+		['@media (prefers-color-scheme: dark) { &:not(.light *) }', '&:is(.dark *)']
+	],
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
 		extend: {}

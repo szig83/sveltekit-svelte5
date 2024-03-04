@@ -14,6 +14,8 @@
 			goto(hrefTransform('', $page));
 		}
 	};
+
+	console.log('devmode', dev);
 </script>
 
 <div id="wrapper">

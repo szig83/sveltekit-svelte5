@@ -7,7 +7,7 @@
 	<a href="/">Home</a>
 	<a href="/page1">Page1</a>
 	<a href="/elso">Első</a>
-	<a href={hrefTransform('proba/masodik', $page)}>Második</a>
+	<a href={hrefTransform('masodik', $page)}>Második</a>
 	<a href="/proba/harmadik">Hiányzó oldal</a>
 </nav>
 

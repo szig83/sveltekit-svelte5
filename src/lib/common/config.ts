@@ -12,7 +12,7 @@ export const clientConfig = {
 				hu: 'fooldal'
 			} /* Alapértelmezett főoldal slug-ok a különböző nyelveken. */,
 			defaultLayoutSettings: {
-				appThemeMode: 'light',
+				appThemeMode: 'system',
 				appThemeColor: 'default',
 				appThemeSize: '100'
 			},
@@ -29,7 +29,7 @@ export const clientConfig = {
 				en: 'home'
 			} /* Alapértelmezett főoldal slug-ok a különböző nyelveken. */,
 			defaultLayoutSettings: {
-				appThemeMode: 'light',
+				appThemeMode: 'system',
 				appThemeColor: 'default',
 				appThemeSize: '100'
 			},

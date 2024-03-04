@@ -4,8 +4,35 @@
 
 @layer base {
 	:root {
+		--color-base: #e6e6e6;
+		--color-text: #212121;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		:root {
+			--color-base: #212121;
+			--color-text: #e6e6e6;
+		}
+	}
+
+	.light {
+		color-scheme: light;
+		--color-base: #e6e6e6;
+		--color-text: #212121;
 	}
 
 	.dark {
+		color-scheme: dark;
+		--color-base: #212121;
+		--color-text: #e6e6e6;
 	}
+}
+
+html {
+	color-scheme: dark light;
+}
+
+body {
+	background-color: var(--color-base);
+	color: var(--color-text);
 }

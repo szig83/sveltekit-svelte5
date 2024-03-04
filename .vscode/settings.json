@@ -2,7 +2,7 @@
 	"window.zoomLevel": 1,
 	"workbench.startupEditor": "none",
 	"workbench.editor.labelFormat": "short",
-	"workbench.iconTheme": "vs-seti",
+	"workbench.iconTheme": "developer-icon-theme",
 	"workbench.colorCustomizations": {
 		"titleBar.activeBackground": "#1a1a1a",
 		"titleBar.activeForeground": "#c7c4c3",
@@ -77,5 +77,53 @@
 	},
 	"editor.quickSuggestions": {
 		"strings": true
-	}
+	},
+	"files.exclude": {
+		"**/.git": false,
+		"**/.svn": false,
+		"**/.hg": false,
+		"**/CVS": false,
+		"**/.DS_Store": false,
+		"**/Thumbs.db": false,
+		".svelte-kit": false,
+		".vscode": false,
+		"node_modules": false,
+		"README.md": false,
+		".eslintignore": false,
+		".eslintrc.cjs": false,
+		".npmrc": false,
+		".prettierignore": false,
+		".prettierrc": false,
+		"bun.lockb": false,
+		"postcss.config.js": false,
+		"vite.config.ts": false,
+		".dockerignore": false,
+		".gitignore": false,
+		"tsconfig.json": false
+	},
+	"explorerExclude.backup": {
+		"**/.git": false,
+		"**/.svn": false,
+		"**/.hg": false,
+		"**/CVS": false,
+		"**/.DS_Store": false,
+		"**/Thumbs.db": false,
+		".svelte-kit": false,
+		".vscode": false,
+		"node_modules": false,
+		"README.md": false,
+		".eslintignore": false,
+		".eslintrc.cjs": false,
+		".npmrc": false,
+		".prettierignore": false,
+		".prettierrc": false,
+		"bun.lockb": false,
+		"postcss.config.js": false,
+		"vite.config.ts": false,
+		".dockerignore": false,
+		".gitignore": false,
+		"tsconfig.json": false
+	},
+	"explorerExclude.showPicker": false,
+	"workbench.productIconTheme": "developer-icons"
 }

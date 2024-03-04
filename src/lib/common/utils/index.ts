@@ -1,18 +1,16 @@
-
 import type { Page, RequestEvent } from '@sveltejs/kit';
 import { clientConfig as config } from '../config';
-import { type ClassValue, clsx } from "clsx";
-import { twMerge } from "tailwind-merge";
+import { type ClassValue, clsx } from 'clsx';
+import { twMerge } from 'tailwind-merge';
 
 /**
  * Dictionary structure
  */
 type DictionaryStruct = Record<string, any> | null;
 
-
 const cn = (...inputs: ClassValue[]) => {
-    return twMerge(clsx(inputs));
-}
+	return twMerge(clsx(inputs));
+};
 
 /**
  * Generate random string

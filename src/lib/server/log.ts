@@ -1,5 +1,6 @@
 import { config } from '$lib/server/config';
 import { mkdirSync, appendFileSync } from 'fs';
+//import { mkdir, appendFile } from 'node:fs/promises';
 import moment from 'moment';
 import type { RequestEvent } from '@sveltejs/kit';
 
@@ -30,7 +31,7 @@ interface LogParams {
  * @param {LogParams} params - Log parameters
  * @returns {void}
  */
-function writeLog(data: string | Record<string, string>, params: LogParams): void {
+async function writeLog(data: string | Record<string, string>, params: LogParams): Promise<void> {
 	const logDirSub = params.logDirSub ? `${params.logDirSub}/` : '';
 	const logDirSite = params.logDirSite ?? '';
 	const logFilePrefix = params.logFilePrefix ? `${params.logFilePrefix}_` : '';
@@ -68,7 +69,9 @@ function writeLog(data: string | Record<string, string>, params: LogParams): voi
 	let fileSaveSuccess = false;
 	try {
 		mkdirSync(logDir, { recursive: true });
+		//await mkdir(logDir, { recursive: true });
 		appendFileSync(logFilePath, logContent);
+		//await appendFile(logFilePath, logContent);
 		fileSaveSuccess = true;
 	} catch (error) {}
 

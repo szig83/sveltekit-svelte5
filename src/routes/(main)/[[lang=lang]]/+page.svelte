@@ -15,6 +15,8 @@
 <Input id="name" on:keyup={handleChange} label="Name" />
 <Proba />
 
+<div class="bg-red-400 dark:bg-blue-400">Tailwind dark mode test</div>
+
 <!-- <Input id="email" label="E-mail" type="email" />
 <Input label="Phone" type="phone" disabled /> -->
 

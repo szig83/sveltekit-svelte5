@@ -13,7 +13,7 @@ import { parseBoolean } from '$lib/common/utils';
  * @see {@link https://kit.svelte.dev/docs/hooks#shared-hooks-handleerror}
  */
 export const handleError: HandleServerError = (async ({ error, event, status }) => {
-	console.log('error handle');
+	console.log('error handle', error);
 	const log = await errorLog(status, error, event, {
 		saveToDatabase: parseBoolean(env.ERROR_LOG_SAVE_TO_DATABASE)
 	});
@@ -35,19 +35,20 @@ export const handle: Handle = async ({ event, resolve }) => {
 
 	//console.log(event.locals.lang);
 
-	let isDarkMode = false;
+	let themeMode = 'system';
 	const cookieLayout = <string>event.cookies.get('layout');
 	if (cookieLayout) {
 		const cl = JSON.parse(cookieLayout);
 		layout.set(cl);
-		if (cl && cl.theme === 'dark') {
-			isDarkMode = true;
+		if (cl) {
+			themeMode = cl.theme;
 		}
 	}
 
+	themeMode = themeMode === 'system' ? '' : themeMode;
+
 	const response = await resolve(event, {
-		transformPageChunk: ({ html }) =>
-			html.replace('class=""', `class="${isDarkMode ? 'dark' : ''}"`)
+		transformPageChunk: ({ html }) => html.replace('class=""', `class="${themeMode}"`)
 	});
 
 	return response;
