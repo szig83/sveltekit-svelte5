@@ -14,7 +14,7 @@ WORKDIR /app
 
 COPY --from=builder /app/build .
 
-COPY .env .
+#COPY .env .
 
 
 CMD ["bun", "run", "start"]
