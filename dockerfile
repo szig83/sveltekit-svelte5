@@ -8,11 +8,11 @@ COPY . .
 RUN bun i
 RUN bun run build
 
-FROM oven/bun
+#FROM oven/bun
 
-WORKDIR /app
+WORKDIR /app/build
 
-COPY --from=builder /app/build .
+#COPY --from=builder /app/build .
 
 #COPY .env .
 
