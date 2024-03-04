@@ -1,6 +1,6 @@
 import { config } from '$lib/server/config';
-import { mkdirSync, appendFileSync } from 'fs';
-//import { mkdir, appendFile } from 'node:fs/promises';
+//import { mkdirSync, appendFileSync } from 'fs';
+import { mkdir, appendFile } from 'node:fs/promises';
 import moment from 'moment';
 import type { RequestEvent } from '@sveltejs/kit';
 
@@ -68,10 +68,10 @@ async function writeLog(data: string | Record<string, string>, params: LogParams
 
 	let fileSaveSuccess = false;
 	try {
-		mkdirSync(logDir, { recursive: true });
-		//await mkdir(logDir, { recursive: true });
-		appendFileSync(logFilePath, logContent);
-		//await appendFile(logFilePath, logContent);
+		//mkdirSync(logDir, { recursive: true });
+		await mkdir(logDir, { recursive: true });
+		//appendFileSync(logFilePath, logContent);
+		await appendFile(logFilePath, logContent);
 		fileSaveSuccess = true;
 	} catch (error) {}
 
