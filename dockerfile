@@ -17,4 +17,4 @@ WORKDIR /app/build
 #COPY .env .
 
 
-#CMD ["bun", "run", "start"]
+CMD ["bun", "./build/index"]
