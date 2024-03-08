@@ -1,0 +1,166 @@
+2024-03-06 13:19:40
+Status: 404
+Message: Not found: /admin
+Error: Not found: /admin
+    at resolve (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/@sveltejs+kit@2.5.2_@sveltejs+vite-plugin-svelte@3.0.2_svelte@5.0.0-next.72_vite@5.1.5/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/@sveltejs+kit@2.5.2_@sveltejs+vite-plugin-svelte@3.0.2_svelte@5.0.0-next.72_vite@5.1.5/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at Object.handle (/Volumes/Data/Work/projects/javascript/svelte/project-02/src/hooks.server.ts:50:25)
+    at Module.respond (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/@sveltejs+kit@2.5.2_@sveltejs+vite-plugin-svelte@3.0.2_svelte@5.0.0-next.72_vite@5.1.5/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/@sveltejs+kit@2.5.2_@sveltejs+vite-plugin-svelte@3.0.2_svelte@5.0.0-next.72_vite@5.1.5/node_modules/@sveltejs/kit/src/exports/vite/dev/index.js:524:22
+---------------------------------------
+2024-03-06 13:19:45
+Status: 404
+Message: Not found: /admin
+Error: Not found: /admin
+    at resolve (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/@sveltejs+kit@2.5.2_@sveltejs+vite-plugin-svelte@3.0.2_svelte@5.0.0-next.72_vite@5.1.5/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/@sveltejs+kit@2.5.2_@sveltejs+vite-plugin-svelte@3.0.2_svelte@5.0.0-next.72_vite@5.1.5/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at Object.handle (/Volumes/Data/Work/projects/javascript/svelte/project-02/src/hooks.server.ts:50:25)
+    at Module.respond (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/@sveltejs+kit@2.5.2_@sveltejs+vite-plugin-svelte@3.0.2_svelte@5.0.0-next.72_vite@5.1.5/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/@sveltejs+kit@2.5.2_@sveltejs+vite-plugin-svelte@3.0.2_svelte@5.0.0-next.72_vite@5.1.5/node_modules/@sveltejs/kit/src/exports/vite/dev/index.js:524:22
+---------------------------------------
+2024-03-06 13:19:55
+Status: 500
+Message: Failed to load url ../../../app.css (resolved id: ../../../app.css) in /Volumes/Data/Work/projects/javascript/svelte/project-02/src/routes/admin/+layout.svelte. Does the file exist?
+Error: Failed to load url ../../../app.css (resolved id: ../../../app.css) in /Volumes/Data/Work/projects/javascript/svelte/project-02/src/routes/admin/+layout.svelte. Does the file exist?
+    at loadAndTransform (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/vite@5.1.5_@types+node@20.11.24_sass@1.71.1/node_modules/vite/dist/node/chunks/dep-G-px366b.js:53634:21)
+    at async instantiateModule (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/vite@5.1.5_@types+node@20.11.24_sass@1.71.1/node_modules/vite/dist/node/chunks/dep-G-px366b.js:54656:10)
+---------------------------------------
+2024-03-06 13:19:57
+Status: 500
+Message: Failed to load url ../../../app.css (resolved id: ../../../app.css) in /Volumes/Data/Work/projects/javascript/svelte/project-02/src/routes/admin/+layout.svelte. Does the file exist?
+Error: Failed to load url ../../../app.css (resolved id: ../../../app.css) in /Volumes/Data/Work/projects/javascript/svelte/project-02/src/routes/admin/+layout.svelte. Does the file exist?
+    at loadAndTransform (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/vite@5.1.5_@types+node@20.11.24_sass@1.71.1/node_modules/vite/dist/node/chunks/dep-G-px366b.js:53634:21)
+    at async instantiateModule (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/vite@5.1.5_@types+node@20.11.24_sass@1.71.1/node_modules/vite/dist/node/chunks/dep-G-px366b.js:54656:10)
+---------------------------------------
+2024-03-06 13:20:19
+Status: 500
+Message: Failed to load url ../../../../app.css (resolved id: ../../../../app.css) in /Volumes/Data/Work/projects/javascript/svelte/project-02/src/routes/admin/+layout.svelte. Does the file exist?
+Error: Failed to load url ../../../../app.css (resolved id: ../../../../app.css) in /Volumes/Data/Work/projects/javascript/svelte/project-02/src/routes/admin/+layout.svelte. Does the file exist?
+    at loadAndTransform (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/vite@5.1.5_@types+node@20.11.24_sass@1.71.1/node_modules/vite/dist/node/chunks/dep-G-px366b.js:53634:21)
+    at async instantiateModule (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/vite@5.1.5_@types+node@20.11.24_sass@1.71.1/node_modules/vite/dist/node/chunks/dep-G-px366b.js:54656:10)
+---------------------------------------
+2024-03-06 15:42:03
+Status: 500
+Message: __vite_ssr_import_3__.button is not a function
+TypeError: __vite_ssr_import_3__.button is not a function
+    at _layout (/Volumes/Data/Work/projects/javascript/svelte/project-02/src/routes/admin/+layout.svelte:36:9)
+    at /Volumes/Data/Work/projects/javascript/svelte/project-02/.svelte-kit/generated/root.svelte:46:42
+    at Module.slot (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/internal/server/index.js:549:3)
+    at Layout (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/@sveltejs+kit@2.5.2_@sveltejs+vite-plugin-svelte@3.0.2_svelte@5.0.0-next.72_vite@5.1.5/node_modules/@sveltejs/kit/src/runtime/components/layout.svelte:11:4)
+    at Root (/Volumes/Data/Work/projects/javascript/svelte/project-02/.svelte-kit/generated/root.svelte:44:40)
+    at Module.render (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/internal/server/index.js:201:2)
+    at Function._render [as render] (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/legacy/legacy-server.js:26:18)
+    at Module.render_response (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/@sveltejs+kit@2.5.2_@sveltejs+vite-plugin-svelte@3.0.2_svelte@5.0.0-next.72_vite@5.1.5/node_modules/@sveltejs/kit/src/runtime/server/page/render.js:171:29)
+    at async Module.render_page (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/@sveltejs+kit@2.5.2_@sveltejs+vite-plugin-svelte@3.0.2_svelte@5.0.0-next.72_vite@5.1.5/node_modules/@sveltejs/kit/src/runtime/server/page/index.js:286:10)
+    at async resolve (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/@sveltejs+kit@2.5.2_@sveltejs+vite-plugin-svelte@3.0.2_svelte@5.0.0-next.72_vite@5.1.5/node_modules/@sveltejs/kit/src/runtime/server/respond.js:446:18)
+---------------------------------------
+2024-03-06 16:19:26
+Status: 500
+Message: Failed to load url /src/lib/components/ui/admin/Header.svelte (resolved id: /Volumes/Data/Work/projects/javascript/svelte/project-02/src/lib/components/ui/admin/Header.svelte) in /Volumes/Data/Work/projects/javascript/svelte/project-02/src/routes/admin/+layout.svelte. Does the file exist?
+Error: Failed to load url /src/lib/components/ui/admin/Header.svelte (resolved id: /Volumes/Data/Work/projects/javascript/svelte/project-02/src/lib/components/ui/admin/Header.svelte) in /Volumes/Data/Work/projects/javascript/svelte/project-02/src/routes/admin/+layout.svelte. Does the file exist?
+    at loadAndTransform (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/vite@5.1.5_@types+node@20.11.24_sass@1.71.1/node_modules/vite/dist/node/chunks/dep-G-px366b.js:53634:21)
+    at async instantiateModule (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/vite@5.1.5_@types+node@20.11.24_sass@1.71.1/node_modules/vite/dist/node/chunks/dep-G-px366b.js:54656:10)
+---------------------------------------
+2024-03-06 16:19:31
+Status: 500
+Message: Failed to load url /src/lib/components/ui/admin/Header.svelte (resolved id: /Volumes/Data/Work/projects/javascript/svelte/project-02/src/lib/components/ui/admin/Header.svelte) in /Volumes/Data/Work/projects/javascript/svelte/project-02/src/routes/admin/+layout.svelte. Does the file exist?
+Error: Failed to load url /src/lib/components/ui/admin/Header.svelte (resolved id: /Volumes/Data/Work/projects/javascript/svelte/project-02/src/lib/components/ui/admin/Header.svelte) in /Volumes/Data/Work/projects/javascript/svelte/project-02/src/routes/admin/+layout.svelte. Does the file exist?
+    at loadAndTransform (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/vite@5.1.5_@types+node@20.11.24_sass@1.71.1/node_modules/vite/dist/node/chunks/dep-G-px366b.js:53634:21)
+    at async instantiateModule (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/vite@5.1.5_@types+node@20.11.24_sass@1.71.1/node_modules/vite/dist/node/chunks/dep-G-px366b.js:54656:10)
+---------------------------------------
+2024-03-06 16:20:13
+Status: 500
+Message: Failed to load url /src/lib/components/ui/admin/Header.svelte (resolved id: /Volumes/Data/Work/projects/javascript/svelte/project-02/src/lib/components/ui/admin/Header.svelte) in /Volumes/Data/Work/projects/javascript/svelte/project-02/src/routes/admin/+layout.svelte. Does the file exist?
+Error: Failed to load url /src/lib/components/ui/admin/Header.svelte (resolved id: /Volumes/Data/Work/projects/javascript/svelte/project-02/src/lib/components/ui/admin/Header.svelte) in /Volumes/Data/Work/projects/javascript/svelte/project-02/src/routes/admin/+layout.svelte. Does the file exist?
+    at loadAndTransform (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/vite@5.1.5_@types+node@20.11.24_sass@1.71.1/node_modules/vite/dist/node/chunks/dep-G-px366b.js:53634:21)
+    at async instantiateModule (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/vite@5.1.5_@types+node@20.11.24_sass@1.71.1/node_modules/vite/dist/node/chunks/dep-G-px366b.js:54656:10)
+---------------------------------------
+2024-03-06 16:22:43
+Status: 500
+Message: Failed to load url ../styled-system/patterns (resolved id: ../styled-system/patterns) in /Volumes/Data/Work/projects/javascript/svelte/project-02/src/lib/components/ui/admin/Header.svelte. Does the file exist?
+Error: Failed to load url ../styled-system/patterns (resolved id: ../styled-system/patterns) in /Volumes/Data/Work/projects/javascript/svelte/project-02/src/lib/components/ui/admin/Header.svelte. Does the file exist?
+    at loadAndTransform (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/vite@5.1.5_@types+node@20.11.24_sass@1.71.1/node_modules/vite/dist/node/chunks/dep-G-px366b.js:53634:21)
+    at async instantiateModule (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/vite@5.1.5_@types+node@20.11.24_sass@1.71.1/node_modules/vite/dist/node/chunks/dep-G-px366b.js:54656:10)
+---------------------------------------
+2024-03-06 16:22:46
+Status: 500
+Message: Failed to load url ../styled-system/patterns (resolved id: ../styled-system/patterns) in /Volumes/Data/Work/projects/javascript/svelte/project-02/src/lib/components/ui/admin/Header.svelte. Does the file exist?
+Error: Failed to load url ../styled-system/patterns (resolved id: ../styled-system/patterns) in /Volumes/Data/Work/projects/javascript/svelte/project-02/src/lib/components/ui/admin/Header.svelte. Does the file exist?
+    at loadAndTransform (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/vite@5.1.5_@types+node@20.11.24_sass@1.71.1/node_modules/vite/dist/node/chunks/dep-G-px366b.js:53634:21)
+    at async instantiateModule (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/vite@5.1.5_@types+node@20.11.24_sass@1.71.1/node_modules/vite/dist/node/chunks/dep-G-px366b.js:54656:10)
+---------------------------------------
+2024-03-06 16:22:55
+Status: 500
+Message: Failed to load url ../styled-system/patterns (resolved id: ../styled-system/patterns) in /Volumes/Data/Work/projects/javascript/svelte/project-02/src/lib/components/ui/admin/Header.svelte. Does the file exist?
+Error: Failed to load url ../styled-system/patterns (resolved id: ../styled-system/patterns) in /Volumes/Data/Work/projects/javascript/svelte/project-02/src/lib/components/ui/admin/Header.svelte. Does the file exist?
+    at loadAndTransform (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/vite@5.1.5_@types+node@20.11.24_sass@1.71.1/node_modules/vite/dist/node/chunks/dep-G-px366b.js:53634:21)
+    at async instantiateModule (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/vite@5.1.5_@types+node@20.11.24_sass@1.71.1/node_modules/vite/dist/node/chunks/dep-G-px366b.js:54656:10)
+---------------------------------------
+2024-03-06 16:22:56
+Status: 500
+Message: Failed to load url ../styled-system/patterns (resolved id: ../styled-system/patterns) in /Volumes/Data/Work/projects/javascript/svelte/project-02/src/lib/components/ui/admin/Header.svelte. Does the file exist?
+Error: Failed to load url ../styled-system/patterns (resolved id: ../styled-system/patterns) in /Volumes/Data/Work/projects/javascript/svelte/project-02/src/lib/components/ui/admin/Header.svelte. Does the file exist?
+    at loadAndTransform (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/vite@5.1.5_@types+node@20.11.24_sass@1.71.1/node_modules/vite/dist/node/chunks/dep-G-px366b.js:53634:21)
+    at async instantiateModule (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/vite@5.1.5_@types+node@20.11.24_sass@1.71.1/node_modules/vite/dist/node/chunks/dep-G-px366b.js:54656:10)
+---------------------------------------
+2024-03-06 16:35:31
+Status: 500
+Message: style is not defined
+ReferenceError: style is not defined
+    at Header (/Volumes/Data/Work/projects/javascript/svelte/project-02/src/lib/components/ui/admin/Header.svelte:16:57)
+    at _layout (/Volumes/Data/Work/projects/javascript/svelte/project-02/src/routes/admin/+layout.svelte:19:73)
+    at /Volumes/Data/Work/projects/javascript/svelte/project-02/.svelte-kit/generated/root.svelte:46:42
+    at Module.slot (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/internal/server/index.js:549:3)
+    at Layout (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/@sveltejs+kit@2.5.2_@sveltejs+vite-plugin-svelte@3.0.2_svelte@5.0.0-next.72_vite@5.1.5/node_modules/@sveltejs/kit/src/runtime/components/layout.svelte:11:4)
+    at Root (/Volumes/Data/Work/projects/javascript/svelte/project-02/.svelte-kit/generated/root.svelte:44:40)
+    at Module.render (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/internal/server/index.js:201:2)
+    at Function._render [as render] (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/legacy/legacy-server.js:26:18)
+    at Module.render_response (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/@sveltejs+kit@2.5.2_@sveltejs+vite-plugin-svelte@3.0.2_svelte@5.0.0-next.72_vite@5.1.5/node_modules/@sveltejs/kit/src/runtime/server/page/render.js:171:29)
+    at async Module.render_page (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/@sveltejs+kit@2.5.2_@sveltejs+vite-plugin-svelte@3.0.2_svelte@5.0.0-next.72_vite@5.1.5/node_modules/@sveltejs/kit/src/runtime/server/page/index.js:286:10)
+---------------------------------------
+2024-03-06 16:48:47
+Status: 500
+Message: /Volumes/Data/Work/projects/javascript/svelte/project-02/src/routes/admin/+layout.svelte:39:1 Adjacent JSX elements must be wrapped in an enclosing tag
+CompileError: Adjacent JSX elements must be wrapped in an enclosing tag
+    at error (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/compiler/errors.js:540:8)
+    at Parser.acorn_error (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/compiler/phases/1-parse/index.js:161:3)
+    at read_expression (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/compiler/phases/1-parse/read/expression.js:36:10)
+    at read_sequence (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/compiler/phases/1-parse/state/element.js:716:23)
+    at read_attribute_value (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/compiler/phases/1-parse/state/element.js:634:11)
+    at read_attribute (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/compiler/phases/1-parse/state/element.js:515:11)
+    at tag (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/compiler/phases/1-parse/state/element.js:207:22)
+    at new Parser (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/compiler/phases/1-parse/index.js:87:12)
+    at parse (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/compiler/phases/1-parse/index.js:315:17)
+    at Module.compile (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/compiler/index.js:24:16)
+---------------------------------------
+2024-03-06 16:48:51
+Status: 500
+Message: /Volumes/Data/Work/projects/javascript/svelte/project-02/src/routes/admin/+layout.svelte:39:1 Adjacent JSX elements must be wrapped in an enclosing tag
+CompileError: Adjacent JSX elements must be wrapped in an enclosing tag
+    at error (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/compiler/errors.js:540:8)
+    at Parser.acorn_error (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/compiler/phases/1-parse/index.js:161:3)
+    at read_expression (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/compiler/phases/1-parse/read/expression.js:36:10)
+    at read_sequence (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/compiler/phases/1-parse/state/element.js:716:23)
+    at read_attribute_value (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/compiler/phases/1-parse/state/element.js:634:11)
+    at read_attribute (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/compiler/phases/1-parse/state/element.js:515:11)
+    at tag (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/compiler/phases/1-parse/state/element.js:207:22)
+    at new Parser (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/compiler/phases/1-parse/index.js:87:12)
+    at parse (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/compiler/phases/1-parse/index.js:315:17)
+    at Module.compile (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/compiler/index.js:24:16)
+---------------------------------------
+2024-03-06 17:00:39
+Status: 500
+Message: /Volumes/Data/Work/projects/javascript/svelte/project-02/src/routes/admin/+layout.svelte:32:0 <div> was left open
+CompileError: <div> was left open
+    at error (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/compiler/errors.js:540:8)
+    at new Parser (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/compiler/phases/1-parse/index.js:95:5)
+    at parse (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/compiler/phases/1-parse/index.js:315:17)
+    at Module.compile (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/svelte@5.0.0-next.72/node_modules/svelte/src/compiler/index.js:24:16)
+    at compileSvelte (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/@sveltejs+vite-plugin-svelte@3.0.2_svelte@5.0.0-next.72_vite@5.1.5/node_modules/@sveltejs/vite-plugin-svelte/src/utils/compile.js:147:22)
+    at async TransformContext.transform (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/@sveltejs+vite-plugin-svelte@3.0.2_svelte@5.0.0-next.72_vite@5.1.5/node_modules/@sveltejs/vite-plugin-svelte/src/index.js:152:20)
+    at async Object.transform (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/vite@5.1.5_@types+node@20.11.24_sass@1.71.1/node_modules/vite/dist/node/chunks/dep-G-px366b.js:50854:30)
+    at async loadAndTransform (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/vite@5.1.5_@types+node@20.11.24_sass@1.71.1/node_modules/vite/dist/node/chunks/dep-G-px366b.js:53644:29)
+    at async instantiateModule (file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/vite@5.1.5_@types+node@20.11.24_sass@1.71.1/node_modules/vite/dist/node/chunks/dep-G-px366b.js:54656:10)
+---------------------------------------

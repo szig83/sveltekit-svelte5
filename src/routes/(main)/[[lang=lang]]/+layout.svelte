@@ -1,5 +1,5 @@
 <script lang="ts">
-	import '../../../app.css';
+	import '$src/app.css';
 	//	import type { LayoutData } from './$types';
 	import { layout } from '$lib/stores/layout';
 	import ThemeSwitcher from '$lib/components/ui/ThemeSwitcher.svelte';

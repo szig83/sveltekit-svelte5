@@ -1,0 +1,28 @@
+2024-03-08 15:48:12
+Status: 500
+Message: [postcss] /Volumes/Data/Work/projects/javascript/svelte/project-02/src/app.css:7:1: `@layer base` is used but no matching `@tailwind base` directive is present.
+CssSyntaxError: [postcss] /Volumes/Data/Work/projects/javascript/svelte/project-02/src/app.css:7:1: `@layer base` is used but no matching `@tailwind base` directive is present.
+    at Input.error (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/postcss@8.4.35/node_modules/postcss/lib/input.js:106:16)
+    at AtRule.error (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/postcss@8.4.35/node_modules/postcss/lib/node.js:115:32)
+    at normalizeTailwindDirectives (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/tailwindcss@3.4.1/node_modules/tailwindcss/lib/lib/normalizeTailwindDirectives.js:72:32)
+    at /Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/tailwindcss@3.4.1/node_modules/tailwindcss/lib/processTailwindFeatures.js:30:98
+    at plugins (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/tailwindcss@3.4.1/node_modules/tailwindcss/lib/plugin.js:38:69)
+    at LazyResult.runOnRoot (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/postcss@8.4.35/node_modules/postcss/lib/lazy-result.js:329:16)
+    at LazyResult.runAsync (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/postcss@8.4.35/node_modules/postcss/lib/lazy-result.js:258:26)
+    at LazyResult.async (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/postcss@8.4.35/node_modules/postcss/lib/lazy-result.js:160:30)
+    at LazyResult.then (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/postcss@8.4.35/node_modules/postcss/lib/lazy-result.js:404:17)
+---------------------------------------
+2024-03-08 15:48:12
+Status: 500
+Message: [postcss] /Volumes/Data/Work/projects/javascript/svelte/project-02/src/app.css:7:1: `@layer base` is used but no matching `@tailwind base` directive is present.
+CssSyntaxError: [postcss] /Volumes/Data/Work/projects/javascript/svelte/project-02/src/app.css:7:1: `@layer base` is used but no matching `@tailwind base` directive is present.
+    at Input.error (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/postcss@8.4.35/node_modules/postcss/lib/input.js:106:16)
+    at AtRule.error (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/postcss@8.4.35/node_modules/postcss/lib/node.js:115:32)
+    at normalizeTailwindDirectives (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/tailwindcss@3.4.1/node_modules/tailwindcss/lib/lib/normalizeTailwindDirectives.js:72:32)
+    at /Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/tailwindcss@3.4.1/node_modules/tailwindcss/lib/processTailwindFeatures.js:30:98
+    at plugins (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/tailwindcss@3.4.1/node_modules/tailwindcss/lib/plugin.js:38:69)
+    at LazyResult.runOnRoot (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/postcss@8.4.35/node_modules/postcss/lib/lazy-result.js:329:16)
+    at LazyResult.runAsync (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/postcss@8.4.35/node_modules/postcss/lib/lazy-result.js:258:26)
+    at LazyResult.async (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/postcss@8.4.35/node_modules/postcss/lib/lazy-result.js:160:30)
+    at LazyResult.then (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/postcss@8.4.35/node_modules/postcss/lib/lazy-result.js:404:17)
+---------------------------------------

@@ -1,0 +1,11 @@
+2024-03-06 14:10:14
+Status: 404
+Message: Not found: /page1
+Error: Not found: /page1
+    at resolve (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/@sveltejs+kit@2.5.2_@sveltejs+vite-plugin-svelte@3.0.2_svelte@5.0.0-next.72_vite@5.1.5/node_modules/@sveltejs/kit/src/runtime/server/respond.js:522:13)
+    at resolve (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/@sveltejs+kit@2.5.2_@sveltejs+vite-plugin-svelte@3.0.2_svelte@5.0.0-next.72_vite@5.1.5/node_modules/@sveltejs/kit/src/runtime/server/respond.js:322:5)
+    at Object.handle (/Volumes/Data/Work/projects/javascript/svelte/project-02/src/hooks.server.ts:50:25)
+    at Module.respond (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/@sveltejs+kit@2.5.2_@sveltejs+vite-plugin-svelte@3.0.2_svelte@5.0.0-next.72_vite@5.1.5/node_modules/@sveltejs/kit/src/runtime/server/respond.js:319:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/@sveltejs+kit@2.5.2_@sveltejs+vite-plugin-svelte@3.0.2_svelte@5.0.0-next.72_vite@5.1.5/node_modules/@sveltejs/kit/src/exports/vite/dev/index.js:524:22
+---------------------------------------

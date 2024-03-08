@@ -1,0 +1,14 @@
+2024-03-06 14:10:13
+Status: 400
+Message: Nagy a baaajaaaaa!
+Error: Nagy a baaajaaaaa!
+    at Module.customError (/Volumes/Data/Work/projects/javascript/svelte/project-02/src/lib/server/errorLog.ts:28:11)
+    at load (/Volumes/Data/Work/projects/javascript/svelte/project-02/src/routes/(main)/[[lang=lang]]/elso/+page.server.ts:8:35)
+    at async Module.load_server_data (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/@sveltejs+kit@2.5.2_@sveltejs+vite-plugin-svelte@3.0.2_svelte@5.0.0-next.72_vite@5.1.5/node_modules/@sveltejs/kit/src/runtime/server/page/load_data.js:50:18)
+    at async Promise.all (index 2)
+    at async Module.render_data (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/@sveltejs+kit@2.5.2_@sveltejs+vite-plugin-svelte@3.0.2_svelte@5.0.0-next.72_vite@5.1.5/node_modules/@sveltejs/kit/src/runtime/server/data/index.js:110:17)
+    at async resolve (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/@sveltejs+kit@2.5.2_@sveltejs+vite-plugin-svelte@3.0.2_svelte@5.0.0-next.72_vite@5.1.5/node_modules/@sveltejs/kit/src/runtime/server/respond.js:444:17)
+    at async Object.handle (/Volumes/Data/Work/projects/javascript/svelte/project-02/src/hooks.server.ts:40:20)
+    at async Module.respond (/Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/@sveltejs+kit@2.5.2_@sveltejs+vite-plugin-svelte@3.0.2_svelte@5.0.0-next.72_vite@5.1.5/node_modules/@sveltejs/kit/src/runtime/server/respond.js:330:20)
+    at async file:///Volumes/Data/Work/projects/javascript/svelte/project-02/node_modules/.pnpm/@sveltejs+kit@2.5.2_@sveltejs+vite-plugin-svelte@3.0.2_svelte@5.0.0-next.72_vite@5.1.5/node_modules/@sveltejs/kit/src/exports/vite/dev/index.js:524:22
+---------------------------------------
